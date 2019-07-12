@@ -28,5 +28,10 @@ out/*
 target/*
 target
 .idea
+mvn
+mvnw
+.cmd
 dependency-reduced-pom.xml
 buildNumber.properties
+maven-wrapper.properties
+
