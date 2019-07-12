@@ -34,4 +34,5 @@ mvnw
 dependency-reduced-pom.xml
 buildNumber.properties
 maven-wrapper.properties
+.mvn/wrapper
 
