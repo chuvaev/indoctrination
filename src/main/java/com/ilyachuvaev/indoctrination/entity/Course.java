@@ -14,7 +14,7 @@ public class Course {
   @GeneratedValue
   @Column(name = "course_id", unique = true)
   private long id;
-  @Column(name = "name")
+  @Column(name = "course_name")
   private String name;
 
   public long getId(){
