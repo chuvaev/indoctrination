@@ -39,11 +39,11 @@ public class UserService {
     return id;
   }
 
-  public java.util.List<User> getContacts(){
+  public List<User> getContacts(){
     ArrayList<User> users = new ArrayList<>(size);
     users.addAll(getAllUsers());
     return users;
   }
 
-  public java.util.List<User> getAllUsers(){return (List<User>) repository.findAll();}
+  private List<User> getAllUsers(){return (List<User>) repository.findAll();}
 }
