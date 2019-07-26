@@ -6,7 +6,6 @@ import com.ilyachuvaev.indoctrination.repository.CourseRepository;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
-import java.util.zip.CheckedOutputStream;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
